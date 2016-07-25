@@ -1,0 +1,35 @@
+<div class="header">
+	<a href="/#/">
+		<h1 class="title">My Contacts</h1>
+	</a>
+	<a href="/#/add">
+		<span class="add-icon">+</span>
+	</a>
+</div>
+<div class="body">
+	<div class="new-contact">
+		<h2 class="nc-text">New Contact</h2>
+		<form name="form" class="form" ng-submit="vm.addContact(contact)">
+			<div class="form-field">
+				<i class="fa fa-user fa-form" aria-hidden="true"></i>
+				<input type="text" name="name" placeholder="Full Name" ng-model="contact.name">	
+			</div>
+			<div class="form-field">
+				<i class="fa fa-envelope fa-form" aria-hidden="true"></i>
+				<input type="email" name="email" placeholder="Email" ng-model="contact.email">
+			</div>
+			
+			<div class="form-field">
+				<i class="fa fa-mobile fa-form" aria-hidden="true"></i>
+				<input type="phone" name="phone" placeholder="Phone Number" ng-model="contact.phone">
+			</div>
+			
+			<div class="form-field">
+				<i class="fa fa-globe fa-form" aria-hidden="true"></i>
+				<input type="text" name="location" placeholder="Location" ng-model="contact.location">
+			</div>
+			<button class="button">Add Contact</button>
+		</form>
+	</div>
+</div>
+<div class="footer"></div>

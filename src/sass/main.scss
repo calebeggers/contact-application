@@ -1,0 +1,142 @@
+.container {
+	width: 600px;
+	margin: auto;
+}
+
+.header {
+	height: 72px;
+	width: 100%;
+	background-color: #81BC39;
+	color: #fff;
+	border-bottom: 3px solid #649C1A;
+	position: relative;
+}
+
+.single-header {
+	height: 200px;
+	width: 100%;
+	background-color: #81BC39;
+	color: #fff;
+	border-bottom: 3px solid #649C1A;
+	position: relative;
+}
+
+.header a {
+	text-decoration: none;
+}
+
+.title {
+	color: #fff;
+	text-decoration: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 18px;
+}
+
+.add-icon {
+	font-size: 40px;
+	color: #fff;
+	left: 550px;
+	top: 10px;
+	position: absolute;
+}
+
+.nc-text {
+	text-align: center;
+}
+
+.form {
+	position: relative;
+}
+
+.form-field {
+	position: relative;
+	border-bottom: 2px solid #EEEEEE;
+}
+
+.form-field input {
+	font-size: 12px;
+	padding: 5px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	&:focus {
+		outline: none;
+	};
+}
+
+.fa-form {
+	position: absolute;
+	left: 115px;
+	font-size: 24px;
+	top: 4px;
+}
+
+.contact-list a {
+	text-decoration: none;
+}
+
+.single-contact {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #EFEFEF;
+	position: relative;
+	img {
+		height: 50px;
+		width: 50px;
+	}
+}
+
+.single-contact-name {
+	display: inline-block;
+	color: black;
+	font-size: 20px;
+	position: absolute;
+	top: 34px;
+	left: 70px;
+}
+
+.profile-pic {
+	position: absolute;
+	left: 250px;
+	top: 40px;
+}
+
+.back-arrow {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.contact-field {
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #EFEFEF;
+}
+
+.contact-container {
+	padding-top: 10px;
+}
+
+.fa-contact {
+	display: inline-block;
+}
+
+.contact-data {
+	display: inline-block;
+	padding-left: 10px; 
+}
+
+.button {
+	background-color: #81BC39;
+	height: 50px;
+	width: 100px;
+	border: 0;
+	color: #fff;
+	margin-left: 250px;
+	margin-top: 20px;
+}
